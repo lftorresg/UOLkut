@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9e6f7;
+  font-family: RobotoFlex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: RobotoFlex;
+  src: url(./fonts/RobotoFlex.ttf);
+}
