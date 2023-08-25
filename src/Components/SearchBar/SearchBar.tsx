@@ -8,7 +8,7 @@ const SearchBar = () => {
           <img src={magGlass} />
           <input
             type="text"
-            placeholder="Pesquisar no Orkut"
+            placeholder="Pesquisar no UOLkut"
             className={classes.searchInput}
           />
         </form>

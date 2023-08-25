@@ -1,27 +1,25 @@
 .searchForm {
     display: none;
-    align-items: center;
-    border-radius: 8px;
+    border-radius: 12px;
     background: #EFF3F8;
-    padding: 8px;
-    margin-block: 24px 24px;
+    margin-block-start: 3vh;
+    padding: 0.3rem;
     width: max(20vw);
     margin-inline-end: 4vw;
+    align-items: center;
 }
 
 .searchInput {
     border: none;
     background: transparent;
-    padding: 4px;
-    position: absolute;
-    top: 73px;
+    padding: 1.5vh;
+    width: 200px;
     outline: none;
 }
 
-
 @media  (max-width: 1200px) {
     .searchForm {
-        display: block;
+        display: none;
         width: 100%;
         background: #FDFEFF;
         margin-left: 20px;
@@ -30,13 +28,21 @@
 @media  (max-width: 850px) {
     .searchForm {
         display: block;
-        width: max(39vw);
+        margin-inline-start: 10vw;
+        width: 80%;
     }
 }
 @media  (max-width: 600px) {
     .searchForm {
         display: block;
         width: max(89vw);
+        margin-inline-start: 4vw;
         margin-bottom: -42px;
+    }
+}
+
+@media (max-width: 360px) {
+    .searchForm {
+        margin-inline-start: 5.5vw;
     }
 }
