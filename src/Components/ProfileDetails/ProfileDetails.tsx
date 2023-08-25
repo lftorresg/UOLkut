@@ -64,16 +64,10 @@ function ProfileDetails() {
                 <div className={classes.__divDetails}>
                     <h4 className={classes.details}>Relacionamento: <span>Solteiro</span></h4>
                     <h4 className={classes.details}>Aniversario: <span>21 de julho</span></h4>
-                    <h4 className={classes.details}>Idade: <span>22</span></h4>
-                    <h4 className={classes.details}>Interesses no orkut: <span>Solteiro</span></h4>
-                    <h4 className={classes.details}>Quem sou eu: <span>Programador</span></h4>
-                    <h4 className={classes.details}>Filhos: <span>Não</span></h4>
-                    <h4 className={classes.details}>Sexo: <span>Masculino</span></h4>
-                    <h4 className={classes.details}>Fumo: <span>Não</span></h4>
-                    <h4 className={classes.details}>Bebo: <span>Depende do dia</span></h4>
+                    <h4 className={classes.details}>Idade: <span>22</span></h4>                    <h4 className={classes.details}>Quem sou eu: <span>Programador</span></h4>
                     <h4 className={classes.details}>Moro: <span>Guarantã</span></h4>
                     <h4 className={classes.details}>País: <span>Brasil</span></h4>
-                    <h4 className={classes.details}>Cidade natal: <span>São Paulo</span></h4>
+                    <h4 className={classes.details}>Cidade: <span>São Paulo</span></h4>
                 </div>
                 <div className={classes.__divPreferences}>
                     <h4 className={classes.h}>

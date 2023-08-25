@@ -1,5 +1,5 @@
 import presentation from '../../assets/img_presentation.png';
-import classes from './Caard.module.css';
+import classes from './Card.module.css';
 
 const Card = () => {
     return (

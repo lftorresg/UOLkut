@@ -1,15 +1,12 @@
 import'./ProfilePhoto.module.css'
 import classes from './ProfilePhoto.module.css'
+import border from '../../assets/Borda.svg'
 
 function ProfilePhoto() {
     return (
         <>
             <div className={classes.__divProfile}>
-                <div className={classes.__divProfilePhoto}>
-                    <div className={classes.__divProfilePhotoImg}>
-
-                    </div>
-                </div>
+                <img src={border} className={classes.__divProfilePhoto}/>
                 <h4>Iuri Silva</h4>
                 <h5>Solteiro, Brasil</h5>
             </div>

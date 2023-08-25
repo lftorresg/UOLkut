@@ -13,7 +13,7 @@
   font-weight: 800;
   line-height: normal;
   margin-block: 29px;
-  margin-left: 230px;
+  margin-inline-start: 13vw;
 }
 
 .flex {
@@ -24,7 +24,7 @@
 
 .flex-information {
   display: flex;
-  margin-right: 130px;
+  margin-inline-end: 13vw;
 }
 
 .information {

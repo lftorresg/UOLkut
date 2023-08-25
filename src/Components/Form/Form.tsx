@@ -84,7 +84,7 @@ const Form = (props:Props) => {
         <div className={classes['container-form']}>
                 <div className={classes['brand-form']}>
                     <img src={orkut} className={classes['img-orkut']} alt='Brand Orkut' />
-                    <h3 className={classes.title}>Acesse o Orkut</h3>
+                    <h3 className={classes.title}>Acesse o UOLkut</h3>
                 </div>
                 <form className={classes.form} onSubmit={submitHandler}>
                 <div className={classes['input-container']}>
@@ -121,12 +121,12 @@ const Form = (props:Props) => {
                     <div className={classes['flex-button']}>
                         <button className={classes['btn-signin']} >
                             <span className={classes['signin-description']}>
-                                Entrar na conta
+                                Entrar
                             </span>
                         </button>
                         <button className={classes['btn-signup']} onClick={() => props.onFormSwitch('register')}>
                             <span className={classes['signup-description']}>
-                                Criar uma conta
+                                Criar conta
                             </span>
                         </button>
                         <a className={classes['anchor-password']} href='/'>Esqueci minha senha</a>
