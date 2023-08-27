@@ -17,23 +17,23 @@
   margin-top: 20px;
   background-image: url(../../assets/iuri.jpeg);
   background-size: 170px 170px;
-
 }
 
 .__divProfile h4 {
+  color: #4b4b4b;
+  font-weight: 500;
   margin-top: 20px;
   margin-bottom: 15px;
   font-size: 20px;
-  font-weight: bold;
   line-height: 15px;
   letter-spacing: 0px;
   text-align: left;
 }
 
-.__div-profile h5 {
-  margin-top: 15px;
+.__divProfile h5 {
+  color: #4b4b4b;
+  font-weight: 400;
   font-size: 15px;
-  font-weight: 500;
   line-height: 15px;
   letter-spacing: 0px;
   text-align: left;

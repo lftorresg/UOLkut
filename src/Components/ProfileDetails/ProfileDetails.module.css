@@ -28,10 +28,9 @@
 
 .nameTag {
   font-size: 26px;
-  font-weight: 500;
-  line-height: 31px;
+  font-weight: 400;
+  line-height: normal;
   letter-spacing: 0px;
-
   color: #4b4b4b;
 }
 
@@ -43,10 +42,6 @@
 }
 
 .inputNameContent {
-  width: 304px;
-  height: 19px;
-  top: 262px;
-  left: 700px;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -57,38 +52,35 @@
   justify-content: left;
 }
 
-.__divSpans {
-  display: none;
-  flex-direction: row;
-  width: 100%;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  margin-top: 30px;
-}
-
-.p {
-  margin-left: 25px;
-}
-
 .__divImg {
-  display: none;
+  display: flex;
   flex-direction: row;
-  width: 100%;
-  margin-top: 10px;
+  color: #4b4b4b;
+  padding-block: 6vh;
 }
 
-.img {
-  display: inline-block;
-  flex-direction: row;
-  width: 24px;
-  height: 24px;
-  top: 351px;
-  left: 688px;
-  border: 1.5px;
-  margin-left: 20px;
+.__divImg img {
+  margin-block-start: 2vh;
+}
+
+.fansRow {
+  display: flex;
+}
+
+.fansRow h6 {
+  color: #B4AEAE;
+  font-size: 16px;
+  margin-inline-start: 5px;
+  margin-block-start: 2.5vh;
+  font-weight: 400;
+}
+
+.__divImg section {
+  margin-inline-end: 3vw;
+}
+
+.coolness img {
+  cursor: pointer;
 }
 
 .__divDetails {
@@ -96,11 +88,14 @@
 }
 
 .details {
-  margin-top: 25px;
+  margin-block-start: 3vh;
+  font-weight: 200;
 }
 
 .__divDetails span {
+  margin-inline-start: 0.7vw;
   color: #4b4b4b;
+  font-weight: 300;
 }
 
 .h {
@@ -108,6 +103,7 @@
   color: #b4aeae;
   font-size: 16px;
   margin-top: 20px;
+  font-weight: 200;
 }
 
 .word {
@@ -117,39 +113,13 @@
   color: #4b4b4b;
   border-radius: 20px;
   margin-left: 10px;
+  font-weight: 250;
 }
 
 .verTodos {
   color: #ed6d25;
   margin-left: 20px;
   cursor: pointer;
-}
-
-.__divSpans {
-  display: inline-flex;
-  flex-direction: row;
-  width: 100%;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  margin-top: 30px;
-}
-
-.__divImg {
-  display: inline-flex;
-  flex-direction: row;
-  width: 100%;
-  margin-top: 10px;
-}
-
-img {
-  display: inline-block;
-  flex-direction: row;
-  width: 24px;
-  height: 24px;
-  top: 351px;
-  left: 688px;
-  border: 1.5px;
+  font-size: 14px;
 }
