@@ -6,11 +6,12 @@ const EditPfp = () => {
   return (
     <section className={classes.container}>
       <div className={classes.clientImg}>
-        <img src={gabriel} className={classes.gabriel} />
-        <div className={classes.border}></div>
-          <a className={classes.editPic}>
-            <img src={editPic} className={classes.penEdit} />
-          </a>
+        <div className={classes.border}>
+          <img src={gabriel} className={classes.gabriel} />
+        </div>
+        <a className={classes.ellipse}>
+          <img src={editPic} className={classes.penEdit} />
+        </a>
       </div>
     </section>
   );

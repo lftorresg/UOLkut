@@ -68,26 +68,24 @@
     margin-block-start: 2vh;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .container {
-      width: 90%;
-    }
-  
-    .simpleLogo {
-      height: 6vh;
-      padding-inline-end: 3vw;
-    }
-  
-    .field input {
-      width: max(70vw);
-    }
-  
-    .field select {
-      width: max(70vw);
+      width: 70%;
+      margin-inline: auto;
     }
   
     .field a {
       width: 30vw;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .container {
+      width: 90%;
+    }
+    .editText {
+      font-size: 30px;
+      letter-spacing: 0;
     }
   }
   
