@@ -1,22 +1,11 @@
-import { useState } from "react";
 import Login from "../Login/LoginPage";
-import SignUp from "../SignUp/SignUp";
+export type Props = {
+  onFormSwitch: (formName: string) => void;
+};
 
 function Home() {
-  const [currentForm, setCurrentForm] = useState("login");
-
-  const toggleForm = (formName: string) => {
-    setCurrentForm(formName);
-  };
-
   return (
-    <>
-      {currentForm === "login" ? (
-        <Login onFormSwitch={toggleForm} />
-      ) : (
-        <SignUp onFormStep={toggleForm} onFormSwitch={toggleForm} />
-      )}
-    </>
+    <Login  />
   );
 }
 

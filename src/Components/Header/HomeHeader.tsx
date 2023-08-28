@@ -1,6 +1,6 @@
 import classes from "./HomeHeader.module.css";
 import magGlass from "../../assets/MagnifyingGlass.svg";
-import userImg from "../../assets/iuri.jpeg";
+import userImg from "../../assets/gabriel.png";
 import arrowDown from "../../assets/CaretDown.svg";
 
 const HomeHeader = () => {
@@ -50,7 +50,7 @@ const HomeHeader = () => {
           </li>
           <li>
             <a href="/" className={classes.link}>
-              <p>Iuri Silva</p>
+              <p>Gabriel Barbosa</p>
             </a>
           </li>
           <li>

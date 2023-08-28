@@ -3,18 +3,15 @@ import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import SignUpComp from "../../Components/Form/SignUp";
 
-export type PropsStep = {
-  onFormSwitch: (formName: string) => void;
-  onFormStep: (formStep: string) => void;
-};
+import { Props } from "../Home/Home";
 
-const SignUp = (props: PropsStep) => {
+const SignUp = (props: Props) => {
 
   return (
     <>
       <Header />
       <Container>
-        <SignUpComp onFormStep={changeStep} onFormSwitch={props.onFormSwitch} />
+        <SignUpComp onFormSwitch={props.onFormSwitch} />
       </Container>
       <Footer />
     </>

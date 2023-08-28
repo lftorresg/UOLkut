@@ -1,6 +1,6 @@
 import classes from "./Form.module.css";
 import orkut from "../../assets/ps_orkut.svg";
-import { Props } from "../../pages/Login/LoginPage";
+import { Props } from "../../pages/Home/Home";
 import { useNavigate } from "react-router-dom";
 
 import React, { useState } from "react";

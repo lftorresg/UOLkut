@@ -7,7 +7,7 @@ function ProfilePhoto() {
         <>
             <div className={classes.__divProfile}>
                 <img src={border} className={classes.__divProfilePhoto}/>
-                <h4>Iuri Silva</h4>
+                <h4>Gabriel Barbosa</h4>
                 <h5>Solteiro, Brasil</h5>
             </div>
 

@@ -50,7 +50,7 @@ function ProfileDetails() {
   return (
     <>
       <div className={classes.__divContainer}>
-        <h3 className={classes.nameTag}>Boa tarde, Iuri</h3>
+        <h3 className={classes.nameTag}>Boa tarde, Gabriel Barbosa</h3>
         <h3 className={classes.inputName}>
           <span className={classes.inputNameContent}>
             Programar sem café é igual poeta sem poesia.

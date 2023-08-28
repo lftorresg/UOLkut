@@ -53,9 +53,10 @@ const EditInfos = () => {
                 Relacionamento
               </option>
               <option>Solteiro(a)</option>
-              <option>Em um relacionamento sério</option>
-              <option>Noivo(a)</option>
-              <option>Casado(a)</option>
+              <option>Casado</option>
+              <option>Divorciado</option>
+              <option>Namorando</option>
+              <option>Preocupado</option>
             </select>
           </section>
         </section>

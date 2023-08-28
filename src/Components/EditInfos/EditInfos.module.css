@@ -35,7 +35,7 @@
   align-items: center;
   border-radius: 8px;
   background: #eff3f8;
-  padding: 3vh;
+  padding: 2vh;
   width: auto;
   color: #868686;
 }
@@ -45,7 +45,7 @@
   border-radius: 8px;
   margin-block-start: 2vh;
   overflow: hidden;
-  width: auto;
+  width: 15vw;
   margin-inline-start: 5vw;
 }
 

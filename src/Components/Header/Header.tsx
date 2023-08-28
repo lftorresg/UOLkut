@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <header className={classes.header}>
         <div className={classes.flex}>
-        <a className={classes.brand}>UOLkut</a>
+        <a className={classes.brand} href="/">UOLkut</a>
 
           <ul className={classes["flex-information"]}>
             <li className={classes.information}>Centro de segurança</li>

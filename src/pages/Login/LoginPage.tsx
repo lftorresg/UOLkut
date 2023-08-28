@@ -4,20 +4,27 @@ import Header from "../../Components/Header/Header";
 
 import Form from "../../Components/Form/Form";
 import Card from "../../Components/Card/Card";
+import { useState } from "react";
+import SignUpPg from "../SignUp/SignUp";
 
-export type Props = {
-  onFormSwitch: (formName: string) => void;
-};
+const Login = () => {
 
-const Login = (props: Props) => {
+  const [currentForm, setCurrentForm] = useState("login");
 
+  const toggleForm = (formName: string) => {
+    setCurrentForm(formName);
+  };
 
   return (
     <>
       <Header />
       <Container>
         <Card />
-        <Form onFormSwitch={props.onFormSwitch} />
+        {currentForm === "login" ? (
+          <Form onFormSwitch={toggleForm} />
+        ) : (
+          <SignUpPg onFormSwitch={toggleForm} />
+        )}
       </Container>
       <Footer />
     </>
