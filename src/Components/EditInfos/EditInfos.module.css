@@ -1,91 +1,135 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    height: auto;
-    background: #fdfeff;
-    border-radius: 16px;
-    margin-block: 10vh 10vh;
-    padding-block: 5vh;
-    margin-inline-start: 3vw;
-  }
-  
-  .editText {
-    display: flex;
-    padding-block-end: 1vh;
-    color: #ed6d25;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  background: #fdfeff;
+  border-radius: 16px;
+  margin-block: 10vh 10vh;
+  padding-block: 5vh;
+  margin-inline-start: 3vw;
+}
+
+.editText {
+  display: flex;
+  padding-block-end: 1vh;
+  color: #ed6d25;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field input {
+  display: block;
+  border: none;
+  background: transparent;
+  outline: none;
+  align-items: center;
+  border-radius: 8px;
+  background: #eff3f8;
+  padding: 3vh;
+  width: auto;
+  color: #868686;
+}
+
+.selectField {
+  background: url('../../assets/CaretDown.svg') no-repeat right #eff3f8;
+  border-radius: 8px;
+  margin-block-start: 2vh;
+  overflow: hidden;
+  width: auto;
+  margin-inline-start: 5vw;
+}
+
+.wrap {
+  display: flex;
+}
+
+.select {
+  color: #868686;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 1.5vh 3vh;
+  appearance: none;
+}
+
+.field a {
+  text-align: center;
+  text-decoration: none;
+  color: #eff3f8;
+  background: #ed6d25;
+  width: 10vw;
+  padding: 1vh;
+  border-radius: 8px;
+  margin-block-start: 2vh;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 60%;
+    margin-inline: auto;
   }
 
-  
-  .field {
-    display: flex;
-    flex-direction: column;
-  }
-  
   .field input {
-    display: block;
-    border: none;
-    background: transparent;
-    outline: none;
-    align-items: center;
-    border-radius: 8px;
-    background: #eff3f8;
-    padding: 3vh;
-    width: auto;
-    color: #868686;
+    width: 25vw;
   }
 
   .selectField {
-    background: url('../../assets/CaretDown.svg') no-repeat right #eff3f8;
-    border-radius: 8px;
-    margin-block-start: 2vh;
-    overflow: hidden;
-    width: auto;
+    width: 20vw;
   }
-  
-  .select {
-    color: #868686;
-    border: none;
-    background: transparent;
-    outline: none;
-    padding: 1.5vh 3vh;
-    appearance: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 70%;
   }
-  
-  .field a {
-    text-align: center;
-    text-decoration: none;
-    color: #eff3f8;
-    background: #ed6d25;
-    width: 10vw;
-    padding: 1vh;
-    border-radius: 8px;
-    margin-block-start: 2vh;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .container {
-      width: 70%;
-      margin-inline: auto;
-    }
-  
-    .field a {
-      width: 30vw;
-    }
+  .wrap {
+    display: flex;
+    flex-direction: column;
   }
 
-  @media screen and (max-width: 450px) {
-    .container {
-      width: 90%;
-    }
-    .editText {
-      font-size: 30px;
-      letter-spacing: 0;
-    }
+  .field input {
+    width: 35vw;
   }
-  
+
+  .selectField {
+    margin-inline-start: 0;
+    width: 35vw;
+  }
+
+  .field a {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .container {
+    width: 90%;
+  }
+
+  .field input {
+    width: 50vw;
+  }
+
+  .selectField {
+    width: 50vw;
+  }
+
+  .field a {
+    width: 40vw;
+  }
+
+  .editText {
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+}
