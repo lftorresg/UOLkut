@@ -5,14 +5,10 @@
     margin-block-start: 3vh;
     padding: 0.3rem;
     width: max(20vw);
-    margin-inline-end: 4vw;
-    align-items: center;
 }
 
 .searchInput {
-    border: none;
     background: transparent;
-    padding: 1.5vh;
     width: 200px;
     outline: none;
 }
@@ -25,18 +21,16 @@
         margin-left: 20px;
     }
 }
-@media  (max-width: 850px) {
+@media  (max-width: 980px) {
     .searchForm {
         display: block;
-        margin-inline-start: 10vw;
-        width: 80%;
+        width: 95%;
     }
 }
 @media  (max-width: 600px) {
     .searchForm {
         display: block;
-        width: max(89vw);
-        margin-inline-start: 4vw;
+        width: 90%;
         margin-bottom: -42px;
     }
 }
