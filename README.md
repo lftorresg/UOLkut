@@ -26,9 +26,9 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-# Compass-orkut
+# UOLkut
 
-> Compass-orkut is a web application that allows users to create profiles, connect with friends, and share interests. It provides an intuitive and user-friendly experience to navigate through various features, ensuring data verification and editable fields for easy profile management.
+> UOLkut is a web application that allows users to create profiles, connect with friends, and share interests. It provides an intuitive and user-friendly experience to navigate through various features, ensuring data verification and editable fields for easy profile management.
 
 
 
@@ -43,7 +43,7 @@ If you are developing a production application, we recommend updating the config
 
 >### Installation
 >
->1. Clone the repository to your local machine using `git clone <https://github.com/vinicius-ricardoADS/compass-orkut.git>`.
+>1. Clone the repository to your local machine using `git clone <https://github.com/lftorresg/UOLkut.git>`.
 >2. Navigate to the project directory.
 >3. Install the required dependencies using `npm install`.
 
@@ -94,8 +94,3 @@ If you are developing a production application, we recommend updating the config
 > - **Profile**: The Profile component displays an individual user's profile, including their personal information, interests, and recent activities.
 > - **ProfileDetails**: The ProfileDetails component provides additional details about a user's profile, such as relationship status, birthday, age, location, and other relevant information.
 > - **Pages**: The Pages component serves as a container for different pages within the application. It may include routing logic to display different pages based on the user's interactions.
-
-
-
-
-
